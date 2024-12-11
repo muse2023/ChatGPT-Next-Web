@@ -41,7 +41,7 @@ export function Toast() {
   }
 
   function calculateUptime() {
-    const startTime = new Date("2024-10-20T00:00:00");
+    const startTime = new Date("2024-12-12T00:00:00");
     const now = new Date();
     const diff = now.getTime() - startTime.getTime();
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -114,7 +114,7 @@ export function Toast() {
               <path d="M14.527 2.25a5.25 5.25 0 0 0 7.223 7.223V15A6.75 6.75 0 0 1 15 21.75H9A6.75 6.75 0 0 1 2.25 15V9A6.75 6.75 0 0 1 9 2.25z" />
             </svg>
           </div>
-          <div className={styles["toast-title"]}>系统通知</div>
+          <div className={styles["toast-title"]}>小小通知</div>
           <button
             className={styles["toast-close"]}
             onClick={closeToast}
@@ -144,7 +144,7 @@ export function Toast() {
           />
           <br />
           <p style={{ fontSize: "13px" }}>
-            DEV API BY RICK →{" "}
+            图片是我呀 →{" "}
             <a
               href="https://blog.rick.icu"
               style={{ color: "rgb(56, 153, 253)" }}
@@ -153,12 +153,12 @@ export function Toast() {
             </a>
           </p>
           <p style={{ fontSize: "13px" }}>
-            服务监控 →{" "}
+            BigME提供 →{" "}
             <a
-              href="https://nezha.crond.dev"
+              href="https://jump.bigmeok.me"
               style={{ color: "rgb(56, 153, 253)" }}
             >
-              泰坦一号-No.1
+              加油大米
             </a>
           </p>
           <p
