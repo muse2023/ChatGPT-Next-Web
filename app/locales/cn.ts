@@ -8,10 +8,10 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? `😆 对话遇到了一些问题，不用慌:
-       \\ 1️⃣ 想要零配置开箱即用，WEB UI [点击这里立刻开启对话 🚀](https://webui.crond.dev/)
+       \\ 1️⃣ 想要访问官网网站，这里进行加速哟！ 🚀](https://jump.bigmeok.me/)
        \\ 2️⃣ 如果你想消耗自己的 OpenAI 资源，点击[这里](/#/settings)修改设置 ⚙️`
       : `😆 对话遇到了一些问题，不用慌:
-       \ 1️⃣ 想要零配置开箱即用，WEB UI [点击这里立刻开启对话 🚀](https://webui.crond.dev/))
+       \ 1️⃣ 想要访问官网网站，这里进行加速哟！ 🚀](https://jump.bigmeok.me/))
        \ 2️⃣ 如果你正在使用私有部署版本，点击[这里](/#/auth)输入访问秘钥 🔑
        \ 3️⃣ 如果你想消耗自己的 OpenAI 资源，点击[这里](/#/settings)修改设置 ⚙️
        `,
@@ -309,10 +309,10 @@ const cn = {
 
     Access: {
       SaasStart: {
-        Title: "使用 WEBUI",
-        Label: "（性价比最高的方案）",
+        Title: "使用 BigME",
+        Label: "（性价比很高的Bgp线路机场）",
         SubTitle:
-          "由 DEV API 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
+          "在尽全力的稳定性与速率之下，再平衡价格与质量",
         ChatNow: "立刻对话",
       },
       AccessCode: {
@@ -596,7 +596,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "来自于BigME|大米加速，无私奉献！",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

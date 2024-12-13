@@ -114,7 +114,7 @@ export function Toast() {
               <path d="M14.527 2.25a5.25 5.25 0 0 0 7.223 7.223V15A6.75 6.75 0 0 1 15 21.75H9A6.75 6.75 0 0 1 2.25 15V9A6.75 6.75 0 0 1 9 2.25z" />
             </svg>
           </div>
-          <div className={styles["toast-title"]}>小小通知</div>
+          <div className={styles["toast-title"]}>温馨通知</div>
           <button
             className={styles["toast-close"]}
             onClick={closeToast}
@@ -137,28 +137,13 @@ export function Toast() {
           </button>
         </div>
         <div className={styles["toast-body"]}>
-          <img
-            src="https://api.crond.dev/rick.png"
-            alt="图片"
-            style={{ borderRadius: "12px" }}
-          />
-          <br />
-          <p style={{ fontSize: "13px" }}>
-            图片是我呀 →{" "}
-            <a
-              href="https://blog.rick.icu"
-              style={{ color: "rgb(56, 153, 253)" }}
-            >
-              RICK
-            </a>
-          </p>
           <p style={{ fontSize: "13px" }}>
             BigME提供 →{" "}
             <a
               href="https://jump.bigmeok.me"
               style={{ color: "rgb(56, 153, 253)" }}
             >
-              加油大米
+              购买大米加速
             </a>
           </p>
           <p
